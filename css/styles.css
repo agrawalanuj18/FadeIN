@@ -81,9 +81,17 @@ color: #FFFFFF;
 transform: rotate(-90deg);
 }
 .button1 {
-    background-color:transparent;
-    border-radius: 13px;
-    color: white;
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 126px;
+    height: 46px;
+    /* left: 1103px; */
+    /* top: 31px; */
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    
 }
 .button2 {
     border-radius: 50%;
