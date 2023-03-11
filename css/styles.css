@@ -9,17 +9,77 @@ body{
 
   .heading {
     /* font-family: "Montserrat", sans-serif; */
-    font-size: 4.0rem;
-    line-height: 1.5;
+    position: absolute;
+    width: 876px;
+    height: 214px;
+    left: 146px;
+    top: 133px;
+    
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 98px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
   }
 .img1{
-    position: relative;
-    top: 160px;
-    width: 120%;
-    right: 24%;
+    position: absolute;
+    width: 730px;
+    height: 411px;
+    left: 564px;
+    top: 296px;
     z-index: -1;
 }
+.img2{
+    position: absolute;
+    width: 327px;
+    height: 462px;
+    left: 197px;
+    top: 514px;
+}
+.img3{
+    position: absolute;
+    width: 484px;
+    height: 242px;
+    left: 564px;
+    top: 745px;
+}
+.img4{
+    position: absolute;
+    width: 886px;
+    height: 371px;
+    left: 399px;
+    top: 1024px;
+}
+.img5{
+    position: absolute;
+width: 419px;
+height: 280px;
+top: 1414px;
+left: 144px;
+}
 
+.rotate{
+    position: absolute;
+width: 48px;
+height: 22px;
+left: 146px;
+top: 726px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
 .button1 {
     background-color:transparent;
     border-radius: 13px;
